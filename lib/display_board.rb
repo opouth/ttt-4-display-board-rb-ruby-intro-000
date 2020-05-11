@@ -1,5 +1,5 @@
 # Define display_board that accepts a board and prints
-board = Array.new(9, "   ")
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def display_board(the_board)
   puts "   |   |   "
   puts "-----------"
